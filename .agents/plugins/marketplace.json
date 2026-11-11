@@ -1,0 +1,20 @@
+{
+  "name": "leeway",
+  "interface": {
+    "displayName": "Leeway"
+  },
+  "plugins": [
+    {
+      "name": "leeway",
+      "source": {
+        "source": "local",
+        "path": "./plugins/leeway"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
